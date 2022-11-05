@@ -13,8 +13,8 @@ Regression model using regularisation for Housing Price Prediction.
 ## General Information
 Model the price of houses with the available independent variables.
 
-    The model will be used by the management to understand how exactly the prices vary with the variables. Surprise Housing can adapt their strategy based on the model and focus on yield high return areas.
-    The model will also be used by the management to understand the pricing dynamics of a new market(here Australia)
+The model will be used by the management to understand how exactly the prices vary with the variables. Surprise Housing can adapt their strategy based on the model and focus on yield high return areas.
+The model will also be used by the management to understand the pricing dynamics of a new market(here Australia)
 
 Data Description: Surprise Housing has collected the Data set from the sale of houses in Australia. The data is provided in CSV file. 
 Data Dictionary is provided separately to understand the data.
@@ -43,7 +43,9 @@ plotly
 seaborn
 ### Modeling & Evaluation
 sklearn.linear_model for Linear, Ridge & Lasso
+
 sklearn.model_selection for GridSearchCV
+
 sklearn.metrics for model evaluation
 
 ## Acknowledgements
